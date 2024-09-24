@@ -51,6 +51,25 @@ table {
 	border-spacing: 0;
 }
 
+span#linha-link-texto:before, a#quintal-link:before {
+    content: ">>";
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    margin-right: 10px;
+    top: -1px;
+	color: #ff8400;
+}
+
+span#linha-link-texto, a#quintal-link {
+    color: #00aaff !important;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
