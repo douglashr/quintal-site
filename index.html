@@ -1,0 +1,442 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Big Picture by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>	
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><img src="images/quintal.jfif"></h1>
+				<!--<nav>
+					<ul>
+						<li><a href="#intro">Inicío</a></li>
+						<li><a href="#one">A escola</a><ul>
+	<li>Sobre a Escola</li>
+	<li>Proposta Pedagógica</li>
+	<li>Adaptação</li>
+	<li>Livre Brincar</li>
+	<li>Turnos e Valores</li>
+
+</ul></li>
+						<li><a href="#two">A Associação</a><ul>
+	<li>Sobre a Associação</li>
+	<li>Comissões de Trabalho</li>
+	<li>Estatuto</li>
+</ul></li>
+						<li><a href="#contact">Contato</a></li>
+					</ul>
+				</nav>-->
+				
+				<nav>
+    <button class="menu-toggle">Menu</button>
+ <!-- Aqui será inserido o menu dinamicamente -->
+  <ul id="menu"></ul>
+
+  <!-- Script para carregar o menu -->
+  <script>
+  function criarMenu() {
+  fetch('administracao/menu.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Erro ao carregar o menu.json');
+      }
+      return response.json();
+    })
+    .then(data => {
+      const menu = document.getElementById('menu');
+
+      // Limpa o conteúdo do menu antes de adicionar novos itens
+      menu.innerHTML = '';
+
+      // Iterar pelos itens principais do menu
+      data.menu.forEach(item => {
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = item.link;  // Corrige para acessar "link"
+        link.textContent = item.titulo;  // Corrige para acessar "titulo"
+        li.appendChild(link);
+
+        // Verificar se o item tem subitens
+        if (item.subitens && item.subitens.length > 0) {
+          const subMenu = document.createElement('ul');
+
+          // Iterar pelos subitens e adicioná-los ao submenu
+          item.subitens.forEach(subitem => {
+            const subLi = document.createElement('li');
+            const subLink = document.createElement('a');
+            subLink.href = subitem.link;  // Corrige para acessar "link"
+            subLink.textContent = subitem.titulo;  // Corrige para acessar "titulo"
+            subLi.appendChild(subLink);
+            subMenu.appendChild(subLi);
+          });
+
+          li.appendChild(subMenu); // Adicionar o submenu ao item principal
+        }
+
+        menu.appendChild(li); // Adicionar o item principal ao menu
+      });
+    })
+    .catch(error => console.error('Erro ao carregar o menu:', error));
+}
+
+// Chamar a função para criar o menu após o carregamento da página
+criarMenu();
+
+  </script>
+</nav>
+  <div class="screen">
+        	<div class="navbar"></div>
+
+        
+	        <div class="circle"></div>
+			<div class="menu">
+				<ul>
+					<li><a href="">Sobre a Escola</a></li>
+					<li><a href="">Proposta Pedagógica</a></li>
+                    <li><a href="">Adaptação</a></li>
+                    <li><a href="">Livre Brincar</a></li>
+					<li><a href="">Turnos e Valores</a></li>
+					<li><a href="">Sobre a Associação</a></li>
+					<li><a href="">Comissões de Trabalho</a></li>
+					<li><a href="">Estatuto</a></li>
+					<li><a href="">Contato</a></li>
+					
+				</ul>
+			</div>			            
+			<div class="burger">
+				<div class="x"></div>
+				<div class="y"></div>
+                <div class="z"></div>
+			</div>    
+
+		</div>
+
+			</header>
+
+		<!-- Intro -->
+			<!--<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2><img src="images/Untitled.png" style="width:100%" /></h2>
+					</header>
+					<p>"Que juntos possamos fazer o que eu não posso nem quero fazer sozinho"<br/><div style="clear:both"></div>
+					<a class="XqQF9c" href="https://links.quintalescoladaleste.com.br/visita" target="_blank" style="color: inherit; text-decoration: none;"><span class="C9DxTc aw5Odc " style="text-decoration: underline;">Agende uma visita</span></a>
+					<a class="XqQF9c" href="/contato" style="color: inherit; text-decoration: none;"><span class="C9DxTc aw5Odc " style="text-decoration: underline;">Matricule-se</span></a></p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>-->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+				  <header>
+					<h2><img id="imagem-logo" src="" style="width:100%"></h2>
+				  </header>
+				  <p id="frase-banner-principal"><br></p>
+				  <div style="clear:both"></div>
+				  <a id="botao1" class="XqQF9c" href="#" target="_blank" style="color: inherit; text-decoration: none;">
+					<span class="C9DxTc aw5Odc" style="text-decoration: underline;"></span>
+				  </a>
+				  <a id="botao2" class="XqQF9c" href="#" style="color: inherit; text-decoration: none;">
+					<span class="C9DxTc aw5Odc" style="text-decoration: underline;"></span>
+				  </a>
+				  <p></p>
+				  <footer>
+					<a href="#one" class="button style2 down">More</a>
+				  </footer>
+				</div>
+			  </section>
+			
+
+
+
+		<!-- One 
+			<section id="one" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>A Quintal da Leste</h2>
+					</header>
+					<p>A Quinta da Leste é uma pré-escola gerida por uma associação de pais desde 2015.</p>
+					<p>Foi formada por um grupo de mães e pais unido pelo desejo de ter um espaço acolhedor para suas crianças, de construir uma escola viva, de pensar modos de viver as infâncias levando como princípio o acolhimento, o brincar, a ludicidade, a liberdade e a autonomia. </p>
+					<a href="#"><span>>></span> Conheça mais sobre a escola</a>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>-->
+			<section id="one" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+				  <header>
+					<h2 id="quintal-titulo"></h2> <!-- O título será inserido aqui -->
+				  </header>
+				  <div id="quintal-texto"></div> <!-- O texto será inserido aqui -->
+				  <a href="#" id="quintal-link"><span>&gt;&gt;</span> </a> <!-- O link será inserido aqui -->
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			  </section>
+			  
+
+			
+		<!-- Two 
+			<section id="two" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Linha pedagógica</h2>
+					</header>
+					<p>Não há uma linha pedagógica pré-estabelecida, mas sim um conjunto de princípios que estruturam e norteiam as atividades cotidianas com as crianças. Para a sustentação deste fazer, a equipe busca sempre a autoavaliação, o diálogo aberto através dos encontros de supervisão e momentos de escutativa, além da realização constante de cursos e atividades formativas.</p>
+					<a href="#"><span>>></span>Conheça mais sobre a nossa proposta pedagógica</a>
+				</div>
+			
+				<a href="#agendar" class="button style2 down anchored">Next</a>
+			</section>-->
+			<section id="two" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+				  <header>
+					<h2 id="linha-titulo"></h2> <!-- Título será inserido aqui -->
+				  </header>
+				  <p id="linha-texto"></p> <!-- Texto será inserido aqui -->
+				  <a href="#" id="linha-link"><span>>></span> <span id="linha-link-texto"></span></a> <!-- Link será inserido aqui -->
+				</div>
+				<a href="#agendar" class="button style2 down anchored">Next</a>
+			  </section>
+			  
+
+			<section id="agendar" class="main style2 left dark fullscreen">
+			<div class="image"></div>
+	<div class="container">
+    <h1>Matrículas Abertas para o 2º Semestre de 2024</h1>
+    <div class="info-box">
+      <span class="material-icons"><img src="images/deadline.png"></span>
+      <p><strong>Turno Matutino:</strong> 7:45 às 12:45 - De 2,5 a 6 anos</p>
+    </div>
+    <div class="info-box">
+      <span class="material-icons"><img src="images/deadline.png"></span>
+      <p><strong>Turno Vespertino:</strong> 13:00 às 18:00 - De 1,5 a 6 anos</p>
+    </div>
+    <div class="info-box">
+      <span class="material-icons"><img src="images/deadline.png"></span>
+      <p><strong>Turno Integral:</strong> 7:45 às 18:00 - De 2,5 a 6 anos</p>
+    </div>
+    <div class="info-box">
+
+      <p><a href="#" class="valores"><span class="icon-button"><img src="images/piggy-bank.png" /></span><span class="text">Veja os valores</span></a> <a href="#" class="valores"><span class="icon-button"><img src="images/agenda.png" /></span><span class="text">Agende uma visita</span></a> <a href="#" class="valores"><span class="icon-button"><img src="images/conversation.png" /></span><span class="text">Fale com a gente</span></a></p>
+    </div>
+  </div>
+  				<a href="#tree" class="button style2 down anchored">Next</a>
+				<img class="onca" src="images/onca.png">
+				<img class="onca2" src="images/onca2.png">
+</section>
+
+
+			<section id="tree" class="main style2 left dark fullscreen">
+				<div class="content box style2 col-4">
+					<header>
+					<span class="image-icon-2"><img src="images/business-people.png"></span>
+						<h2>A Associação</h2>
+					</header>
+					<p>A Quintal da Leste é o resultado dos sonhos de um grupo de mães e pais que, em 2015, engajaram-se na constituição de uma escola na região leste de Belo Horizonte. </p>
+					<a href="#"><span>>></span>Veja mais</a>
+				</div>
+				<div class="content box style2 col-4">
+					<header>
+					<span class="image-icon-2"><img src="images/wrench.png"></span>
+						<h2>Comissões de Trabalho</h2>
+					</header>
+					<p> Divisão de tarefas é estabelecida em comissões de trabalho. Cada pessoa pode aderir a uma comissão de acordo com suas afinidades e com a necessidade de distribuição das funções.</p>
+					<a href="#"><span>>></span>Veja mais</a>
+				</div>
+				<div class="content box style2 col-4">
+					<header>
+					<span class="image-icon-2"><img src="images/adaptation.png"></span>
+						<h2>Adaptação</h2>
+					</header>
+					<p>Adaptação é o espaço/tempo em que crianças e familiares criam uma relação de confiança com a professora, com o ambiente da escola e entre si. </p>
+					<a href="#"><span>>></span>Veja mais</a>
+				</div>
+				<div class="content box style2 col-4">
+					<header>
+					<span class="image-icon-2"><img src="images/statute.png"></span>
+						<h2>Estatuto</h2>
+					</header>
+					<p>Nosso estatuto social é o documento que regula a Associação Quintal de mães e pais. Temos por por princípio que para cada criança matriculada na escola, um dos pais deve se tornar associado...</p>
+					<a href="#"><span>>></span>Veja mais</a>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Livre Brincar</h2>
+						<p>No percurso que a criança faz, ela brinca desde que nasce. Desde que ela coordena minimamente os movimentos. O primeiro brinquedo dela é a própria mão. E daí ela vai num contínuo de desenvolvimento global da inteligência de uma forma geral e a gente consegue enxergar isso na brincadeira dela. E se a gente for pensar, quem ensina a criança a brincar com a mão ? </p>
+						<a href="#"><span>>></span>Veja mais</a>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/fulls/1.jpg" class="image fit"><img src="images/thumbs/1.jpg" title="The Anonymous Red" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/2.jpeg" class="image fit"><img src="images/thumbs/2.jpeg" title="Airchitecture II" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/3.jfif" class="image fit"><img src="images/thumbs/3.jfif" title="Air Lounge" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/4.jfif" class="image fit"><img src="images/thumbs/4.jfif" title="Carry on" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/fulls/5.jpg" class="image fit"><img src="images/thumbs/5.jpg" title="The sparkling shell" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/fulls/6.jpg" class="image fit"><img src="images/thumbs/6.jpg" title="Bent IX" alt="" /></a>
+							</article>
+						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+			
+
+<div class="left-contact">
+    <div class="info-box">
+	<a href="#" target="_blank">
+      <span class="material-icons"><img src="images/instagram.png"></span>
+      <p><strong>Instagram:</strong> @quintaldaleste</p>
+	  </a>
+    </div>
+    <div class="info-box">
+	<a href="#" target="_blank">
+      <span class="material-icons"><img src="images/icons8-whatsapp-50.png"></span>
+      <p><strong>WhatsApp:</strong> +55 31 99489-3809</p>
+	  </a>
+    </div>
+    <div class="info-box">
+	<a href="#" target="_blank">
+      <span class="material-icons"><img src="images/732026.png"></span>
+      <p><strong>e-mail:</strong> contato@quintalescoladaleste.com.br</p>
+	  </a>
+    </div>
+	    <div class="info-box">
+		<a href="#" target="_blank">
+      <span class="material-icons"><img src="images/126341.png"></span>
+      <p><strong>Telefone:</strong> (31) 99489-3809</p>
+	  </a>
+    </div>
+	    <div class="info-box">
+		
+      <span class="material-icons"><img src="images/106121.png"></span>
+      <p><strong>Endereço:</strong> Rua Oswaldo Ferraz, 487 - Sagrada Família, Belo Horizonte, MG</p>
+	  
+    </div>
+	</div>
+	<div class="right-contact">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.544140400522!2d-43.92720382509522!3d-19.901462037419865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69bd2cbb8d49d%3A0x3759496273356c2c!2sQuintal%20Escola%20da%20Leste!5e0!3m2!1sen!2sbr!4v1725991906095!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+	
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				
+	if( 'ontouchstart' in window ){ var click = 'touchstart'; }
+	else { var click = 'click'; }
+
+
+	$('div.burger').on(click, function(){
+
+			if( !$(this).hasClass('open') ){ openMenu(); } 
+			else { closeMenu(); }
+
+	});
+	
+
+	$('div.menu ul li a').on(click, function(e){
+		e.preventDefault();
+		closeMenu();
+	});		
+
+
+	function openMenu(){
+		
+		$('div.circle').addClass('expand');
+		$('div.screen').addClass('expand');			
+		$('div.burger').addClass('open');	
+		$('div.x, div.y, div.z').addClass('collapse');
+		$('.menu li').addClass('animate');
+		
+		setTimeout(function(){ 
+			$('div.y').hide(); 
+			$('div.x').addClass('rotate30'); 
+			$('div.z').addClass('rotate150'); 
+		}, 70);
+		setTimeout(function(){
+			$('div.x').addClass('rotate45'); 
+			$('div.z').addClass('rotate135');  
+		}, 120);
+		
+		
+
+	}
+	
+	function closeMenu(){
+		$('div.screen').removeClass('expand');	
+		$('div.burger').removeClass('open');	
+		$('div.x').removeClass('rotate45').addClass('rotate30'); 
+		$('div.z').removeClass('rotate135').addClass('rotate150');				
+		$('div.circle').removeClass('expand');
+		$('.menu li').removeClass('animate');
+		
+		setTimeout(function(){ 			
+			$('div.x').removeClass('rotate30'); 
+			$('div.z').removeClass('rotate150'); 			
+		}, 50);
+		setTimeout(function(){
+			$('div.y').show(); 
+			$('div.x, div.y, div.z').removeClass('collapse');
+		}, 70);													
+		
+	}
+			</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</body>
+</html>
