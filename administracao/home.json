@@ -1,0 +1,37 @@
+{
+  "banner-principal": [
+    {
+      "imagem-background": "1726629785826-27052700.JPG",
+      "imagem-logo": "4bd05348ef6d0efc4858b4754cc68224",
+      "frase-do-banner-principal": "Que juntos possamos fazer o que eu não posso nem quero fazer sozinho2",
+      "botoes": [
+        {
+          "titulo": "Agende uma visita",
+          "link": "#"
+        },
+        {
+          "titulo": "Matricule-se",
+          "link": "#"
+        }
+      ]
+    }
+  ],
+  "A-Quintal-da-Leste": [
+    {
+      "imagem-background": "1726629230533-15913802.JPG",
+      "titulo": "A Quintal da Leste",
+      "texto": "<p>A Quinta da Leste é uma pré-escola gerida por uma associação de pais desde 2015.</p><p>Foi formada por um grupo de mães e pais unido pelo desejo de ter um espaço acolhedor para suas crianças, de construir uma escola viva, de pensar modos de viver as infâncias levando como princípio o acolhimento, o brincar, a ludicidade, a liberdade e a autonomia.</p>",
+      "link-texto": "Conheça mais sobre a escola",
+      "link-url": "#"
+    }
+  ],
+  "Linha-pedagogica": [
+    {
+      "imagem-background": "1726630172356-626565654.JPG",
+      "titulo": "Linha pedagógica1",
+      "texto": "<p>Não há uma linha pedagógica pré-estabelecida, mas sim um conjunto de princípios que estruturam e norteiam as atividades cotidianas com as crianças. Para a sustentação deste fazer, a equipe busca sempre a autoavaliação, o diálogo aberto através dos encontros de supervisão e momentos de escutativa, além da realização constante de cursos e atividades formativas.</p>",
+      "link-texto": "Conheça mais sobre a nossa proposta pedagógica",
+      "link-url": "#"
+    }
+  ]
+}
