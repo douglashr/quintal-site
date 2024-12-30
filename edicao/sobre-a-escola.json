@@ -1,0 +1,45 @@
+{
+    "titulo": "Sobre a Escola",
+    "subtitulo": "Conheça mais sobre a Quintal da Leste",
+    "imagemBanner": "images/WhatsApp%20Image%202022-11-05%20at%2010.29.46%20(1).jpeg",
+    "conteudo": [
+      {
+        "tipo": "paragrafo",
+        "texto": "A Quintal da Leste é o resultado dos sonhos de um grupo de mães e pais que, em 2015, engajaram-se na constituição de uma escola na região leste de Belo Horizonte. O que uniu esse grupo foi o desejo de ter um espaço acolhedor para suas crianças, de construir uma escola viva, de pensar modos de viver as infâncias levando como princípio o acolhimento, o brincar, a ludicidade, a liberdade e a autonomia."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "O projeto se estabeleceu dentro de um modelo de associação, a Associação de Arte e Cultura Quintal da Leste. Esta foi a forma legal que o grupo encontrou para atuar de acordo com os princípios e lógicas que acreditavam ser mais pertinentes, levando em consideração o funcionamento dentro de uma lógica colaborativa e transparente, com tarefas distribuídas de maneira horizontal, com custos acessíveis para as famílias e com uma equipe de educadoras que pudessem ser bem remuneradas."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Com o tempo, as práticas exercidas para sustentar esses princípios, tanto no âmbito do fazer pedagógico da equipe de professoras e trabalhadoras da escola, quanto nas atividades de gestão, marcam o que atualmente chamamos de modo de fazer quintal."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Como um projeto coletivo, temos uma estrutura aberta, que permite a incorporação de diferentes pontos de vista, em função das pessoas que aderem ao grupo. Dessa forma, por mais que algumas atividades ou modos de funcionamento tenham um desenho estabelecido, eles podem ser retomados para reavaliação e transformação de acordo com o consenso do grupo."
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "É muito importante lembrarmos que não temos com a escola uma relação de clientes, somos conjuntamente responsáveis pela gestão, pelas tomadas de decisão e pelos efeitos alcançados pelas ações que desenvolvemos, pois a Quintal é nossa!"
+      },
+      {
+        "tipo": "titulo",
+        "texto": "Proposta Pedagógica"
+      },
+      {
+        "tipo": "paragrafo",
+        "texto": "Para a elaboração da proposta pedagógica, partimos de desejos, pressupostos e percepções comuns, como:"
+      },
+      {
+        "tipo": "lista",
+        "itens": [
+          "Respeito, escuta, diálogo: acreditamos que as crianças são sujeitos autônomos e que têm um papel central em seu próprio aprendizado, bem como na construção coletiva do nosso projeto de escola.",
+          "Um quintal acolhedor: entendemos que o espaço da escola e a relação com a natureza e com o entorno são fundamentais para o desenvolvimento de atividades e da socialização entre as crianças. O quintal foi um ponto inegociável na escolha da casa.",
+          "Brincar: também acreditamos que o centro do processo de aprendizado, nesse estágio, são as brincadeiras, e que é através do brincar que a criança vai fazer suas descobertas, compreender o mundo e agir sobre ele, construir sentidos, e exercitar a alteridade para além das paredes de casa.",
+          "Simplicidade: queremos um ambiente que seja, acima de tudo, acolhedor, onde a criança se sinta livre para construir relações com os colegas e com o mundo. Sem excesso de atividades, sem metas e avaliações, sem reforçar a competitividade, sem as imposições de uma alfabetização formal."
+        ]
+      }
+    ]
+  }
+  

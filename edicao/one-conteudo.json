@@ -1,0 +1,16 @@
+{
+    "titulo": "A Quintal da Leste",
+    "paragrafos": [
+      "A Quinta da Leste é uma pré-escola gerida por uma associação de pais desde 2015.",
+      "Foi formada por um grupo de mães e pais unido pelo desejo de ter um espaço acolhedor para suas crianças, de construir uma escola viva, de pensar modos de viver as infâncias levando como princípio o acolhimento, o brincar, a ludicidade, a liberdade e a autonomia."
+    ],
+    "link": {
+      "texto": "Conheça mais sobre a escola",
+      "url": "sobre-a-escola.html"
+    },
+    "botaoRodape": {
+      "texto": "Next",
+      "link": "#two"
+    }
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "titulo": "Turnos e Valores",
+    "subtitulo": "Confira os turnos e mensalidades para 2025",
+    "imagemBanner": "images/turno-valores.jpeg",
+    "conteudo": [
+        {
+            "tipo": "paragrafo",
+            "texto": "Mensalidades para o início* de 2025"
+        },
+        {
+            "tipo": "tabela",
+            "cabecalho": ["Turno", "Descrição", "Valor"],
+            "linhas": [
+                ["Vespertino", "Segunda a sexta, de 13:00 às 18:00", "R$ 1.593"],
+                ["Matutino", "Segunda a sexta, de 7:45 às 12:45", "R$ 1.593"],
+                ["Integral", "Manhã e tarde, segunda a sexta, início às 7:45", "R$ 2.950"],
+                ["Integral", "Manhã e tarde, segunda a sexta, início às 10:00", "R$ 2.497"],
+                ["Contraturno 2x", "Início às 7:45 + turno vespertino", "R$ 2.207"],
+                ["Contraturno 2x", "Início às 10:00 + turno vespertino", "R$ 2.001"],
+                ["Contraturno 3x", "Início às 7:45 + turno vespertino", "R$ 2.537"],
+                ["Contraturno 3x", "Início às 10:00 + turno vespertino", "R$ 2.222"]
+            ]
+        },
+        {
+            "tipo": "destaque",
+            "texto": "*O valor da mensalidade é reajustado de acordo com a inflação na primeira assembleia geral do ano, normalmente em março ou abril."
+        }
+    ]
+}

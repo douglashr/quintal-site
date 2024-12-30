@@ -1,0 +1,13 @@
+{
+  "menuMobile": [
+    { "title": "Início", "link": "index.html#intro" },
+    { "title": "Sobre a Escola", "link": "sobre-a-escola.html" },
+    { "title": "Proposta Pedagógica", "link": "proposta-pedagogica.html" },
+    { "title": "Adaptação", "link": "adaptacao.html" },
+    { "title": "Livre Brincar", "link": "livre-brincar.html" },
+    { "title": "Turnos e Valores", "link": "turno-e-valores.html" },
+    { "title": "Sobre a Associação", "link": "sobre-a-associacao.html" },
+    { "title": "Comissões de Trabalho", "link": "comissoes-de-trabalho.html" },
+    { "title": "Contato", "link": "#contact" }
+  ]
+}

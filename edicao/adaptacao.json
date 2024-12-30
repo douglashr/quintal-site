@@ -1,0 +1,47 @@
+{
+    "titulo": "Adaptação",
+    "subtitulo": "Entenda o processo de adaptação na Quintal",
+    "imagemBanner": "images/adaptacao.jpeg",
+    "conteudo": [
+        {
+            "tipo": "paragrafo",
+            "texto": "Adaptação é o espaço/tempo em que crianças e familiares criam uma relação de confiança com a professora, com o ambiente da escola e entre si. De forma que, para todos, a escola se torne um espaço seguro, acolhedor e de pertencimento."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Como processo, a adaptação se dá de formas diferentes para cada família/criança/turma. Não estabelecemos um limite de tempo específico para esse momento, pois optamos por manter um olhar atento e uma escuta atenta para cada caso. Para que tudo aconteça da melhor forma, pedimos às famílias que se disponibilizem por uma ou duas semanas."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "O primeiro momento é onde a criança e o familiar responsável entram juntos no ambiente de referência da turma e experimentam a rotina do dia. É um momento para conhecerem uns aos outros, descobrirem interesses em comum e explorarem os ambientes."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Sem pressa e observando o tempo de cada criança, a professora pedirá para as famílias saírem e ficarem por perto (em um local onde não sejam vistas pelas crianças). Aos poucos, vamos alargando esses tempos e distâncias, até que a criança esteja à vontade com a nova rotina."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Consistência"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "A maneira como nós aprendemos e internalizamos qualquer mudança é através da repetição. Para as crianças pequenas isso é especialmente importante. Por isso pedimos para uma pessoa da família se responsabilizar em acompanhar a criança por todo o processo."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Também pedimos atenção aos ritmos da casa, para que se mantenha o mais consistente possível, principalmente nos pequenos rituais diários da criança (despertar, comer, dormir) para não serem atropelados pela nova rotina. Além disso, é importante que a criança frequente de forma contínua a escola por algumas semanas, para que o processo se internalize."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Confiança"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Na primeira infância a criança está muito ligada aos sentimentos dos pais e da família. Dessa maneira, é importante que os adultos ao redor dela trabalhem dentro de si a confiança no processo de adaptação."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "É preciso que a escola represente para todos um espaço de segurança, cuidado e acolhimento. Caso tenha alguma dúvida ou algo (por mais pequeno que seja) que gere algum tipo de insegurança, pedimos que possam conversar abertamente. Precisamos de um diálogo franco e aberto para construirmos essa relação de confiança."
+        }
+    ]
+}

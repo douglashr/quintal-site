@@ -1,0 +1,79 @@
+{
+    "titulo": "A Associação",
+    "subtitulo": "Conheça a estrutura e os valores da nossa associação",
+    "imagemBanner": "images/20220330_163245.jpg",
+    "conteudo": [
+        {
+            "tipo": "paragrafo",
+            "texto": "A Quintal da Leste é o resultado dos sonhos de um grupo de mães e pais que, em 2015, engajaram-se na constituição de uma escola na região leste de Belo Horizonte. O que uniu esse grupo foi o desejo de ter um espaço acolhedor para suas crianças, de construir uma escola viva, de pensar modos de viver as infâncias levando como princípio o acolhimento, o brincar, a ludicidade, a liberdade e a autonomia."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "O projeto se estabeleceu dentro de um modelo de associação, a Associação Quintal de Educação e Cultura. Esta foi a forma legal que o grupo encontrou para atuar de acordo com os princípios e lógicas que acreditavam ser mais pertinentes, levando em consideração o funcionamento dentro de uma lógica colaborativa e transparente, com tarefas distribuídas de maneira horizontal, com custos acessíveis para as famílias e com uma equipe de educadoras que pudessem ser bem remuneradas."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Com o tempo, as práticas exercidas para sustentar esses princípios, tanto no âmbito do fazer pedagógico da equipe de professoras e trabalhadoras da escola, quanto nas atividades de gestão, marcam o que atualmente chamamos de modo de fazer Quintal."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Como um projeto coletivo, temos uma estrutura aberta, que permite a incorporação de diferentes pontos de vista, em função das pessoas que aderem ao grupo. Dessa forma, por mais que algumas atividades ou modos de funcionamento tenham um desenho estabelecido, eles podem ser retomados para reavaliação e transformação de acordo com o consenso do grupo."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "É muito importante lembrarmos que não temos com a escola uma relação de clientes, somos conjuntamente responsáveis pela gestão, pelas tomadas de decisão e pelos efeitos alcançados pelas ações que desenvolvemos, pois a Quintal é nossa!"
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Por que somos uma escola?"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Recorrentemente, entre familiares e equipe pedagógica, nos deparamos com depoimentos que argumentam sobre como a Quintal produz uma experiência formativa e afetiva para todas as pessoas envolvidas, além das crianças."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Nesse sentido, somos uma escola não apenas porque possibilitamos um espaço consistente em vivências, cuidados e aprendizagens para as crianças, mas também, porque trazemos uma comunidade inteira para se responsabilizar pela sustentação desse espaço. É este o ponto principal que traz sentido à nossa construção e que nos torna uma comunidade."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Como se estrutura a gestão?"
+        },
+        {
+            "tipo": "subtitulo",
+            "texto": "Associação sem fins lucrativos"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "A Quintal é uma associação sem fins lucrativos, formada, em sua maioria, por mães e pais, que se dedicam à gestão da Associação de Arte e Cultura Quintal da Leste."
+        },
+        {
+            "tipo": "subtitulo",
+            "texto": "Contribuição mensal"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Cada pessoa associada se compromete ao pagamento de uma taxa de adesão e das mensalidades correspondentes ao período matriculado."
+        },
+        {
+            "tipo": "subtitulo",
+            "texto": "Grupos de e-mail e WhatsApp"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Fazemos uso de grupos de Whatsapp e e-mail para comunicação cotidiana à distância."
+        },
+        {
+            "tipo": "subtitulo",
+            "texto": "Assembleias gerais"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Acontecem de forma periódica e se configura como um momento de encontro, diálogo, atualização dos grupos de trabalho e deliberação de decisões mais importantes."
+        },
+        {
+            "tipo": "destaque",
+            "texto": "Os pontos apresentados acima desenham o funcionamento base da gestão da Quintal. Embora a responsabilidade seja, em grande parte, assumida pelo grupo de mães e pais da associação, torna-se importante dizer que a decisão de certas ações estejam em concordância com as perspectivas da Equipe Pedagógica."
+        }
+    ]
+}

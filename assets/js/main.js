@@ -216,66 +216,9 @@
 				$window.trigger('resize');
 			});
 
-// Carrega o arquivo JSON e renderiza todas as partes da página
-function carregarHomeData() {
-	fetch('administracao/home.json')
-	  .then(response => {
-		if (!response.ok) {
-		  throw new Error('Erro ao carregar o arquivo home.json');
-		}
-		return response.json();
-	  })
-	  .then(data => {
-		const bannerData = data["banner-principal"][0];
-		const quintalData = data["A-Quintal-da-Leste"][0];
-		const linhaPedagogicaData = data["Linha-pedagogica"][0]; // Adiciona a linha pedagógica
-	
-		// Renderizar banner principal
-		renderizarBannerPrincipal(bannerData);
-	
-		// Renderizar seção "A Quintal da Leste"
-		renderizarQuintalDaLeste(quintalData);
-		
-		// Renderizar seção "Linha pedagógica"
-		renderizarLinhaPedagogica(linhaPedagogicaData); // Adiciona a renderização da linha pedagógica
-	  })
-	  .catch(error => console.error('Erro ao carregar o home.json:', error));
-  }
+
   
-  // Função para renderizar o banner principal
-  function renderizarBannerPrincipal(bannerData) {
-	// Preenche os elementos do HTML com os dados do JSON do banner
-	document.getElementById("imagem-logo").src = "images/" + bannerData["imagem-logo"];
-	document.getElementById("frase-banner-principal").textContent = bannerData["frase-do-banner-principal"];
-  
-	// Preenchendo os botões do banner
-	document.getElementById("botao1").href = bannerData["botoes"][0]["link"];
-	document.getElementById("botao1").querySelector("span").textContent = bannerData["botoes"][0]["titulo"];
-  
-	document.getElementById("botao2").href = bannerData["botoes"][1]["link"];
-	document.getElementById("botao2").querySelector("span").textContent = bannerData["botoes"][1]["titulo"];
-  }
-  
-  // Função para renderizar a seção "A Quintal da Leste"
-  function renderizarQuintalDaLeste(quintal) {
-	// Preenche os elementos do HTML com os dados do JSON da seção Quintal da Leste
-	document.getElementById('quintal-titulo').innerText = quintal.titulo;
-	document.getElementById('quintal-texto').innerHTML = quintal.texto;
-	document.getElementById('quintal-link').innerText = quintal['link-texto'];
-	document.getElementById('quintal-link').href = quintal['link-url'];
-  }
-  
-  // Função para renderizar a seção "Linha pedagógica"
-  function renderizarLinhaPedagogica(linhaPedagogica) {
-	// Preenche os elementos do HTML com os dados do JSON da seção Linha pedagógica
-	document.getElementById('linha-titulo').innerText = linhaPedagogica.titulo;
-	document.getElementById('linha-texto').innerHTML = linhaPedagogica.texto;
-	document.getElementById('linha-link-texto').innerText = linhaPedagogica['link-texto'];
-	document.getElementById('linha-link').href = linhaPedagogica['link-url'];
-  }
-  
-  // Carrega os dados quando a página for carregada
-  window.onload = carregarHomeData;
-  
+
+
 
 })(jQuery);

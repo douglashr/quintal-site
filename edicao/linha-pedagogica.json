@@ -1,0 +1,15 @@
+{
+  "titulo": "Linha pedagógica",
+  "paragrafos": [
+    "Não há uma linha pedagógica pré-estabelecida, mas sim um conjunto de princípios que estruturam e norteiam as atividades cotidianas com as crianças.",
+    "Para a sustentação deste fazer, a equipe busca sempre a autoavaliação, o diálogo aberto através dos encontros de supervisão e momentos de escutativa, além da realização constante de cursos e atividades formativas."
+  ],
+  "link": {
+    "texto": "Conheça mais sobre a nossa proposta pedagógica",
+    "url": "proposta-pedagogica.html"
+  },
+  "botaoRodape": {
+    "texto": "Next",
+    "link": "#agendar"
+  }
+}

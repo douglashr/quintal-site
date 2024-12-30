@@ -1,0 +1,39 @@
+{
+    "contatos": [
+      {
+        "icone": "images/instagram.png",
+        "titulo": "Instagram",
+        "descricao": "@quintaldaleste",
+        "link": "https://www.instagram.com/quintaldaleste"
+      },
+      {
+        "icone": "images/icons8-whatsapp-50.png",
+        "titulo": "WhatsApp",
+        "descricao": "+55 31 99489-3809",
+        "link": "https://wa.me/5531994893809"
+      },
+      {
+        "icone": "images/732026.png",
+        "titulo": "e-mail",
+        "descricao": "contato@quintalescoladaleste.com.br",
+        "link": "mailto:contato@quintalescoladaleste.com.br"
+      },
+      {
+        "icone": "images/126341.png",
+        "titulo": "Telefone",
+        "descricao": "(31) 99489-3809",
+        "link": "tel:+5531994893809"
+      },
+      {
+        "icone": "images/106121.png",
+        "titulo": "Endereço",
+        "descricao": "Rua Oswaldo Ferraz, 487 - Sagrada Família, Belo Horizonte, MG"
+      }
+    ],
+    "mapa": {
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.544140400522!2d-43.92720382509522!3d-19.901462037419865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69bd2cbb8d49d%3A0x3759496273356c2c!2sQuintal%20Escola%20da%20Leste!5e0!3m2!1sen!2sbr!4v1725991906095!5m2!1sen!2sbr",
+      "largura": "400",
+      "altura": "300"
+    }
+  }
+  

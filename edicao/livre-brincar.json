@@ -1,0 +1,51 @@
+{
+    "titulo": "Livre Brincar",
+    "subtitulo": "Entenda a importância do livre brincar",
+    "imagemBanner": "images/one2.jpg",
+    "conteudo": [
+        {
+            "tipo": "citacao",
+            "texto": "Livre brincar é o espaço onde as crianças exploram sua criatividade, autonomia e conexão com o mundo ao seu redor."
+        },
+        {
+            "tipo": "destaque",
+            "texto": "Seminário \"O adulto frente ao livre brincar\" (transcrição da fala de Adriana Di Mambro)"
+        },
+        {
+            "tipo": "destaque",
+            "texto": "Dri é psicóloga e foi nossa consultora pedagógica de 2015 a 2018; nos ajudou a construir o que é hoje o Quintal, nos propondo reflexões a partir de suas experiências profissionais em outras escolas de Belo Horizonte, transmitindo suas referências para a equipe e para as famílias associadas, e se relacionando diretamente com as crianças semanalmente, tendo como base o conceito de Livre Brincar, que ela compartilha nesta fala de outubro de 2017."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Há dois meses, tivemos a ideia deste seminário, com o desejo de trazer vocês todos, a comunidade do Quintal, para pertinho do trabalho que a gente faz na Comissão Pedagógica."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Na Comissão fazemos reuniões, conversas - nós da equipe conversamos sobre o trabalho semanalmente e toda a Comissão quinzenalmente. Mas sempre sentimos falta de contar pra vocês todas as nossas reflexões, por que a gente faz o que faz, o que a gente pensa. Porque é um trabalho vivo, né? Não desenvolvemos uma técnica... não tem isso. Cada dia as coisas vão acontecendo na nossa frente e vamos repensando; aquilo vai se agregando e o trabalho vai ficando mais forte."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Viemos perseguindo um objetivo, desde o comecinho da nossa proposta de Quintal, que é oferecer para as crianças um espaço e um tempo para a brincadeira."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Por que brincadeira?"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "No percurso que a criança faz, ela brinca desde que nasce. Desde que ela coordena minimamente os movimentos. O primeiro brinquedo dela é a própria mão."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "E a criança vai, sozinha, fazendo todas as coisas que ela precisa para continuar se desenvolvendo."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Essa entrega ao brincar é essencial para o desenvolvimento criativo e emocional da criança, pois é uma forma de se conectar com o mundo interno e externo."
+        },
+        {
+            "tipo": "destaque",
+            "texto": "*Lorena Tófani, estudante de graduação em teatro da Escola de Belas Artes da UFMG, desenvolveu uma monografia com base em um período de observação da rotina do Quintal, intitulada “Entre capas, saias, calcinhas e heróis: performatividade e poética de meninas e meninos no quintal”."
+        }
+    ]
+}

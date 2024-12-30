@@ -1,0 +1,99 @@
+{
+    "titulo": "Comissões de Trabalho",
+    "subtitulo": "Conheça as comissões que compõem nosso fazer coletivo",
+    "imagemBanner": "images/IMG_20220211_152548.jpg",
+    "conteudo": [
+        {
+            "tipo": "destaque",
+            "texto": "A divisão de tarefas é estabelecida em comissões. Cada pessoa pode aderir a uma comissão de acordo com suas afinidades e com a necessidade de distribuição das funções. Atualmente contamos com 9 comissões. A seguir, listamos as comissões que atualmente compõem nosso fazer, apresentamos algumas funções básicas que esses grupos podem desenvolver, mas o mapeamento de necessidades e atividades é constantemente atualizado."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão Antirracista"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Este grupo guarda o compromisso de toda a comunidade em priorizar a construção de um espaço seguro, disposto a se repensar enquanto reprodutor das relações de poder e opressão em nossa sociedade. Idealiza e realiza eventos formativos, rodas de conversa, acolhimento; Pensa formas de promover a equidade racial em nossa comunidade; Atua em função dos projetos levantados em comunidade para essa pauta."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Alimentação"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Grupo criado para pensar sobre a alimentação balanceada, nutritiva e consciente na escola. Idealiza o cardápio base; cria logística para fornecimento de frutas e refeições das crianças."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Comunicação"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Se divide em duas frentes. Uma, idealiza e desenvolve a identidade visual da escola. Outra, cuida da comunicação interna e externa, transmitindo a cultura organizacional da escola de forma objetiva e criativa."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Envolvimento"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Configura-se como a “porta de entrada da Quintal”. Desenvolve funções como: apresentar a escola; responder ou encaminhar dúvidas para a equipe; acompanhar o passo a passo de ingresso das novas famílias até se tornarem efetivamente associadas; apoiar no encaminhamento aos Gts; recepcionar famílias recém chegadas para que sintam-se parte da comunidade."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Extensão"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Cuida das relações da associação com a comunidade externa. Organiza eventos e ações formativas que estejam em conexão com as pautas e discussões do coletivo; Organiza o aluguel ou empréstimo da casa para outras atividades fora do horário de atendimento das crianças; Pensa e organiza estratégias para levantar fundos para a associação."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Gestão e Finanças"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Desempenha uma visão geral, articula as atividades da comunidade e das comissões. Organiza e encaminha as finanças da escola junto da prestadora de serviços contábeis; Torna pública, mensalmente, através do e-mail as planilhas de gastos e receitas; Formaliza o processo de entrada e saída das famílias da associação; Realiza a contratação de profissionais para o projeto."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Infraestrutura e Sustentabilidade"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Responsabiliza-se pelo espaço físico da escola, sua manutenção e reformas. Comporta ações como projetar repaginação e modificações estruturais do espaço, contratar ou realizar serviços de reparos e pequenas reformas, organizar mutirões de limpeza e pintura. Também responsabiliza-se por implementar iniciativas de sustentabilidade e gestão dos resíduos."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão de Tecnologia"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Responsabiliza-se pela gerência das informações digitais da Quintal. Administra o Workspace e ajuda as demais comissões com soluções em TI."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comissão Pedagógica"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Grupo criado para tecer momentos de trocas e pensamentos em relação ao fazer pedagógico cotidiano, possibilitando novas perspectivas e práticas."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Comitê Gestor"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Formado pela coordenação e um representante de cada comissão o Comitê Gestor se reúne mensalmente para discutir e tomar decisões do cotidiano da escola."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Grupos Emergenciais"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Além dos grupos citados, alguns GTs emergenciais são ativados temporariamente de acordo com as necessidades que algumas situações específicas apresentam."
+        }
+    ]
+}

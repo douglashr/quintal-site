@@ -1,0 +1,67 @@
+{
+    "titulo": "Proposta Pedagógica",
+    "subtitulo": "Conheça nossa proposta pedagógica",
+    "imagemBanner": "images/pedagogica.jpg",
+    "conteudo": [
+        {
+            "tipo": "paragrafo",
+            "texto": "O que estrutura o cotidiano das crianças? As atividades diretamente relacionadas com as crianças, no cotidiano da escola, são desempenhadas por uma equipe de profissionais contratadas, a equipe pedagógica. A equipe tem representatividade nas assembleias; autonomia nos encaminhamentos que se referem ao trabalho pedagógico."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Objetivamos desenvolver sempre uma comunidade/escola centrada em uma pedagogia viva, que entende a criança como protagonista de sua história, que respeita a cultura da infância em sua multiplicidade e que é comprometida com a construção de um espaço seguro para rever o racismo e outras formas de opressão que caracterizam as nossas relações cotidianas."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Não há uma linha pedagógica pré-estabelecida, mas sim um conjunto de princípios que estruturam e norteiam as atividades cotidianas com as crianças. Para a sustentação deste fazer, a equipe busca sempre a autoavaliação, o diálogo aberto através dos encontros de supervisão e momentos de escutativa, além da realização constante de cursos e atividades formativas."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Observação ativa"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "A criança está no centro do nosso olhar e é ela quem nos mostra o melhor caminho para seu desenvolvimento integral. Nesta perspectiva, a observação ativa é uma ferramenta poderosa para as educadoras, pois é através dela que podem conhecer profundamente cada criança."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "O brincar"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "O brincar é a linguagem essencial das crianças, e elas devem experimentar suas manifestações legítimas enquanto um direito. Para isso, devemos assegurar que elas tenham tempo e espaço adequados para experimentarem a si."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Corpo, espaço, movimento"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Entendemos que o desenvolvimento da criança está intrinsecamente relacionado com sua experiência corporal, a inteligência desenvolve-se por meio da exploração do espaço e dos objetos. A criança pequena expressa-se através do seu corpo e, por isso, precisa encontrar um ambiente desafiador e seguro, propício às suas explorações e descobertas."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Educação socioemocional"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "A criança pequena expressa-se através do seu corpo e, por isso, precisa encontrar um ambiente desafiador e seguro, propício às suas explorações e descobertas."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Ritmo e rotina"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "A criança pequena é, em um certo sentido, desordenada e tende à expansão. Para que ela se organize e sinta-se segura, podendo desenvolver seus processos de crescimento com harmonia, é preciso oferecê-la ritmo e rotina."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "Educação étnico-racial"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "Ao longo do processo pedagógico com as crianças, a equipe, com representatividade negra, passou a levar como valor prioritário a igualdade e a equidade racial."
+        }
+    ]
+}

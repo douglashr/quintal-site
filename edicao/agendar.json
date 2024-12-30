@@ -1,0 +1,43 @@
+{
+    "titulo": "Matrículas Abertas para o 2º Semestre de 2024",
+    "turnos": [
+      {
+        "icone": "images/deadline.png",
+        "texto": "<strong>Turno Matutino:</strong> 7:45 às 12:45 - De 2,5 a 6 anos"
+      },
+      {
+        "icone": "images/deadline.png",
+        "texto": "<strong>Turno Vespertino:</strong> 13:00 às 18:00 - De 1,5 a 6 anos"
+      },
+      {
+        "icone": "images/deadline.png",
+        "texto": "<strong>Turno Integral:</strong> 7:45 às 18:00 - De 2,5 a 6 anos"
+      }
+    ],
+    "acoes": [
+      {
+        "icone": "images/piggy-bank.png",
+        "texto": "Veja os valores",
+        "url": "turno-e-valores.html"
+      },
+      {
+        "icone": "images/agenda.png",
+        "texto": "Agende uma visita",
+        "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ33272_YXKTzE5RkO32o2hvO5D1irN59zJ0qkNR31X06QFRds8BssOMT0sy7-ifI1QyJn-5UU_Y"
+      },
+      {
+        "icone": "images/conversation.png",
+        "texto": "Fale com a gente",
+        "url": "#contact"
+      }
+    ],
+    "proximo": {
+      "texto": "Next",
+      "url": "#tree"
+    },
+    "imagens": [
+      "images/onca.png",
+      "images/onca2.png"
+    ]
+  }
+  

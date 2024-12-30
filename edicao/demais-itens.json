@@ -1,0 +1,37 @@
+{
+    "boxes": [
+      {
+        "icone": "images/business-people.png",
+        "titulo": "A Associação",
+        "texto": "A Quintal da Leste é o resultado dos sonhos de um grupo de mães e pais que, em 2015, engajaram-se na constituição de uma escola na região leste de Belo Horizonte.",
+        "linkTexto": "Veja mais",
+        "linkUrl": "sobre-a-associacao.html"
+      },
+      {
+        "icone": "images/wrench.png",
+        "titulo": "Comissões de Trabalho",
+        "texto": "Divisão de tarefas é estabelecida em comissões de trabalho. Cada pessoa pode aderir a uma comissão de acordo com suas afinidades e com a necessidade de distribuição das funções.",
+        "linkTexto": "Veja mais",
+        "linkUrl": "comissoes-de-trabalho.html"
+      },
+      {
+        "icone": "images/adaptation.png",
+        "titulo": "Adaptação",
+        "texto": "Adaptação é o espaço/tempo em que crianças e familiares criam uma relação de confiança com a professora, com o ambiente da escola e entre si.",
+        "linkTexto": "Veja mais",
+        "linkUrl": "adaptacao.html"
+      },
+      {
+        "icone": "images/statute.png",
+        "titulo": "Estatuto",
+        "texto": "Nosso estatuto social é o documento que regula a Associação Quintal de mães e pais. Temos por princípio que para cada criança matriculada na escola, um dos pais deve se tornar associado.",
+        "linkTexto": "Veja mais",
+        "linkUrl": "estatuto.html"
+      }
+    ],
+    "proximo": {
+      "texto": "Next",
+      "link": "#work"
+    }
+  }
+  

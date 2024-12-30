@@ -1,0 +1,21 @@
+{
+    "imagem": "images/Untitled.png",
+    "frase": "Que juntos possamos fazer o que eu não posso nem quero fazer sozinho",
+    "links": [
+      {
+        "texto": "Agende uma visita",
+        "url": "https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ33272_YXKTzE5RkO32o2hvO5D1irN59zJ0qkNR31X06QFRds8BssOMT0sy7-ifI1QyJn-5UU_Y",
+        "alvo": "_blank"
+      },
+      {
+        "texto": "Matricule sua criança",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSf4Ve2fa1vpIcyXDpVBu1OH5bYm2lI6lT10fpycOhLsooLH-A/viewform",
+        "alvo": "_blank"
+      }
+    ],
+    "botaoRodape": {
+      "texto": "Mais",
+      "link": "#one"
+    }
+  }
+  

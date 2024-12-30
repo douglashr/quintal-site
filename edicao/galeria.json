@@ -1,0 +1,47 @@
+{
+    "titulo": "Livre Brincar",
+    "descricao": "No percurso que a criança faz, ela brinca desde que nasce. Desde que ela coordena minimamente os movimentos. O primeiro brinquedo dela é a própria mão. E daí ela vai num contínuo de desenvolvimento global da inteligência de uma forma geral e a gente consegue enxergar isso na brincadeira dela. E se a gente for pensar, quem ensina a criança a brincar com a mão?",
+    "link": {
+      "texto": "Veja mais",
+      "url": "#"
+    },
+    "galeria": [
+      {
+        "imagemFull": "images/fulls/1.jpg",
+        "imagemThumb": "images/thumbs/1.jpg",
+        "titulo": "Foto 1",
+        "alt": "Foto 1"
+      },
+      {
+        "imagemFull": "images/fulls/2.jpeg",
+        "imagemThumb": "images/thumbs/2.jpeg",
+        "titulo": "Foto 2",
+        "alt": "Foto 2"
+      },
+      {
+        "imagemFull": "images/fulls/3.jfif",
+        "imagemThumb": "images/thumbs/3.jfif",
+        "titulo": "Foto 3",
+        "alt": "Foto 3"
+      },
+      {
+        "imagemFull": "images/fulls/4.jfif",
+        "imagemThumb": "images/thumbs/4.jfif",
+        "titulo": "Foto 4",
+        "alt": "Foto 4"
+      },
+      {
+        "imagemFull": "images/fulls/5.jpg",
+        "imagemThumb": "images/thumbs/5.jpg",
+        "titulo": "Foto 5",
+        "alt": "Foto 5"
+      },
+      {
+        "imagemFull": "images/fulls/6.jpg",
+        "imagemThumb": "images/thumbs/6.jpg",
+        "titulo": "Foto 6",
+        "alt": "Foto 6"
+      }
+    ]
+  }
+  

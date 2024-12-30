@@ -1,0 +1,35 @@
+{
+    "titulo": "Estatuto",
+    "subtitulo": "Conheça os princípios e regulamentos da nossa associação",
+    "imagemBanner": "images/one5.jpeg",
+    "conteudo": [
+        {
+            "tipo": "destaque",
+            "texto": "Nosso estatuto social é o documento que regula a Associação Quintal de mães e pais. Temos por por princípio que para cada criança matriculada na escola, um dos pais deve se tornar associado, o que traz responsabilidades compartilhadas e um envolvimento maior do que a simples matrícula em uma escola."
+        },
+        {
+            "tipo": "titulo",
+            "texto": "ASSOCIAÇÃO QUINTAL DE EDUCAÇÃO E CULTURA"
+        },
+        {
+            "tipo": "subtitulo",
+            "texto": "CAPÍTULO I - DA DENOMINAÇÃO, SEDE E FINS"
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "<b>Art.1.</b> A Associação Quintal de Educação e Cultura é pessoa jurídica de direito privado, constituída na forma de sociedade civil de fins não lucrativos, com autonomia administrativa e financeira, regendo-se pelo presente Estatuto e pela legislação que lhe for aplicável."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "<b>Art.2.</b> A Associação Quintal de Educação e Cultura também designada QUINTAL, é uma associação, sem fins econômicos, que terá duração por tempo indeterminado, sede no Município de Belo Horizonte Estado de Minas Gerais, na Rua Amianto, 272, bairro Santa Tereza."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "<b>Art.3.</b> A Associação poderá mudar de sede, abrir filiais, oficinas, firmar convênios e acordos de cooperação e outras dependências em qualquer parte do território nacional, a juízo e critério dos associados, observadas as formalidades legais."
+        },
+        {
+            "tipo": "paragrafo",
+            "texto": "O presente estatuto foi aprovado pela Assembleia Geral realizada no dia <b>03 de dezembro de 2015.</b>"
+        }
+    ]
+}
