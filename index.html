@@ -1,203 +1,199 @@
-/*
+<!DOCTYPE HTML>
+<!--
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+-->
+<html>
+	<head>
+		<title>Quintal da Leste</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>	
 
-(function($) {
+	</head>
+	<body class="is-preload">
+	
+		
 
-	var $window = $(window),
-		$body = $('body'),
-		$header = $('#header'),
-		$all = $body.add($header);
+<!-- Header -->
+<header id="header">
+	<h1><img src="images/quintal.jfif" alt="Logo"></h1>
+  
+	<!-- Menu Principal -->
+	<nav>
+		<ul id="menu-principal"></ul>
+	  </nav>
+  
+	  <nav>
+		<button class="menu-toggle">Menu</button>
+	 <!-- Aqui será inserido o menu dinamicamente -->
+	  <ul id="menu"></ul>
+	
+	  <!-- Script para carregar o menu -->
+	  
+	</nav>
+	  <div class="screen">
+				<div class="navbar"></div>
+	
+			
+				<div class="circle"></div>
+				<div class="menu menu-mobile-valendo">
+					<ul></ul>
+				  </div>		            
+				<div class="burger">
+					<div class="x"></div>
+					<div class="y"></div>
+					<div class="z"></div>
+				</div>    
+	
+			</div>
+  </header>
+  
+  
+  
+  
+  
+  
 
-	// Breakpoints.
-	breakpoints({
-		xxlarge: [ '1681px',  '1920px' ],
-		xlarge:  [ '1281px',  '1680px' ],
-		large:   [ '1001px',  '1280px' ],
-		medium:  [ '737px',   '1000px' ],
-		small:   [ '481px',   '736px'  ],
-		xsmall:  [ null,      '480px'  ]
+	 <!-- Intro -->
+	 <section id="intro" class="main style1 dark fullscreen">
+		<div class="content">
+		  <header></header>
+		  <p></p>
+		  <footer></footer>
+		</div>
+	  </section>
+			
+
+
+
+		<!-- One -->
+		<section id="one" class="main style2 left dark fullscreen">
+			<div class="content box style2">
+			  <header></header>
+			</div>
+			<a href="#two" class="button style2 down anchored"></a>
+		  </section>
+		  
+			  
+<!-- Two -->
+			
+		  <div id="linha-pedagogica-container"></div>
+			  
+
+	<!-- AGENDAR -->
+	<div id="agendar-container"></div>
+
+			 <!-- Container para a seção dinâmica -->
+  <div id="demais-itens-container"></div>
+
+		<!-- Container para a seção dinâmica -->
+		<div id="galeria-container"></div>
+
+		<!-- Contact -->
+			 <!-- Container para a seção dinâmica -->
+  <div id="rodape-container"></div>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+	
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- Seus scripts -->
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+			<script>
+				
+	if( 'ontouchstart' in window ){ var click = 'touchstart'; }
+	else { var click = 'click'; }
+
+
+	$('div.burger').on(click, function(){
+
+			if( !$(this).hasClass('open') ){ openMenu(); } 
+			else { closeMenu(); }
+
 	});
+	
 
-	// Play initial animations on page load.
-	$window.on('load', function() {
-		setTimeout(function() {
-			$body.removeClass('is-preload');
-		}, 100);
-	});
+	$('div.menu ul li a').on(click, function(e){
+		e.preventDefault();
+		closeMenu();
+	});		
 
-	// Touch mode.
-	if (browser.mobile)
-		$body.addClass('is-touch');
-	else {
-		breakpoints.on('<=small', function() {
-			$body.addClass('is-touch');
-		});
-		breakpoints.on('>small', function() {
-			$body.removeClass('is-touch');
-		});
+
+	function openMenu(){
+		
+		$('div.circle').addClass('expand');
+		$('div.screen').addClass('expand');			
+		$('div.burger').addClass('open');	
+		$('div.x, div.y, div.z').addClass('collapse');
+		$('.menu li').addClass('animate');
+		
+		setTimeout(function(){ 
+			$('div.y').hide(); 
+			$('div.x').addClass('rotate30'); 
+			$('div.z').addClass('rotate150'); 
+		}, 70);
+		setTimeout(function(){
+			$('div.x').addClass('rotate45'); 
+			$('div.z').addClass('rotate135');  
+		}, 120);
+		
+		
+
 	}
-
-	// Fix: IE flexbox fix.
-	if (browser.name == 'ie') {
-		var $main = $('.main.fullscreen'),
-			IEResizeTimeout;
-		$window
-			.on('resize.ie-flexbox-fix', function() {
-				clearTimeout(IEResizeTimeout);
-				IEResizeTimeout = setTimeout(function() {
-					var wh = $window.height();
-					$main.each(function() {
-						var $this = $(this);
-						$this.css('height', '');
-						if ($this.height() <= wh)
-							$this.css('height', (wh - 50) + 'px');
-					});
-				});
-			})
-			.triggerHandler('resize.ie-flexbox-fix');
+	
+	function closeMenu(){
+		$('div.screen').removeClass('expand');	
+		$('div.burger').removeClass('open');	
+		$('div.x').removeClass('rotate45').addClass('rotate30'); 
+		$('div.z').removeClass('rotate135').addClass('rotate150');				
+		$('div.circle').removeClass('expand');
+		$('.menu li').removeClass('animate');
+		
+		setTimeout(function(){ 			
+			$('div.x').removeClass('rotate30'); 
+			$('div.z').removeClass('rotate150'); 			
+		}, 50);
+		setTimeout(function(){
+			$('div.y').show(); 
+			$('div.x, div.y, div.z').removeClass('collapse');
+		}, 70);													
+		
 	}
-
-	// Gallery.
-	function inicializarGaleria() {
-		console.log("Inicializando galeria...");
-		var $gallery = $('.gallery');
-		$gallery.poptrox({
-			baseZIndex: 10001,
-			useBodyOverflow: false,
-			usePopupEasyClose: false,
-			overlayColor: '#1f2328',
-			overlayOpacity: 0.65,
-			usePopupDefaultStyling: false,
-			usePopupCaption: true,
-			popupLoaderText: '',
-			windowMargin: 50,
-			usePopupNav: true
-		});
-		breakpoints.on('>small', function() {
-			$gallery.each(function() {
-				$(this)[0]._poptrox.windowMargin = 50;
-			});
-		});
-		breakpoints.on('<=small', function() {
-			$gallery.each(function() {
-				$(this)[0]._poptrox.windowMargin = 5;
-			});
-		});
-	}
-
-	$window.on('load', function() {
-		inicializarGaleria();
-	});
-
-	// Section transitions.
-	function inicializarAnimacoes() {
-		console.log("Inicializando animações...");
-		if (browser.canUse('transition')) {
-			$('.gallery').scrollex({
-				top: '30vh',
-				bottom: '30vh',
-				delay: 50,
-				initialize: function() { $(this).addClass('inactive'); },
-				terminate: function() { $(this).removeClass('inactive'); },
-				enter: function() { $(this).removeClass('inactive'); },
-				leave: function() { $(this).addClass('inactive'); }
-			});
-
-			$('.main.style1, .main.style2').scrollex({
-				mode: 'middle',
-				delay: 100,
-				initialize: function() { $(this).addClass('inactive'); },
-				terminate: function() { $(this).removeClass('inactive'); },
-				enter: function() { $(this).removeClass('inactive'); },
-				leave: function() { $(this).addClass('inactive'); }
-			});
-
-			$('#contact').scrollex({
-				top: '50%',
-				delay: 50,
-				initialize: function() { $(this).addClass('inactive'); },
-				terminate: function() { $(this).removeClass('inactive'); },
-				enter: function() { $(this).removeClass('inactive'); },
-				leave: function() { $(this).addClass('inactive'); }
-			});
-		}
-	}
-
-	$window.on('load', function() {
-		inicializarAnimacoes();
-	});
-
-	// Menu toggle for "menu-mobile-valendo".
-	function inicializarMenuMobile() {
-		console.log("Inicializando menu mobile...");
-		$('div.burger').on('click', function() {
-			if (!$(this).hasClass('open')) {
-				abrirMenu();
-			} else {
-				fecharMenu();
-			}
-		});
-
-		function abrirMenu() {
-			$('div.circle').addClass('expand');
-			$('div.screen').addClass('expand');
-			$('div.burger').addClass('open');
-			$('div.x, div.y, div.z').addClass('collapse');
-			$('.menu li').addClass('animate');
-			setTimeout(function() {
-				$('div.y').hide();
-				$('div.x').addClass('rotate30');
-				$('div.z').addClass('rotate150');
-			}, 70);
-			setTimeout(function() {
-				$('div.x').addClass('rotate45');
-				$('div.z').addClass('rotate135');
-			}, 120);
-		}
-
-		function fecharMenu() {
-			$('div.screen').removeClass('expand');
-			$('div.burger').removeClass('open');
-			$('div.x').removeClass('rotate45').addClass('rotate30');
-			$('div.z').removeClass('rotate135').addClass('rotate150');
-			$('div.circle').removeClass('expand');
-			$('.menu li').removeClass('animate');
-			setTimeout(function() {
-				$('div.x').removeClass('rotate30');
-				$('div.z').removeClass('rotate150');
-			}, 50);
-			setTimeout(function() {
-				$('div.y').show();
-				$('div.x, div.y, div.z').removeClass('collapse');
-			}, 70);
-		}
-	}
-
-	$window.on('load', function() {
-		inicializarMenuMobile();
-	});
-
-	// Events.
-	var resizeTimeout;
-	$window.on('resize', function() {
-		$body.addClass('is-resizing');
-		clearTimeout(resizeTimeout);
-		resizeTimeout = setTimeout(function() {
-			$('a[href^="#"]').scrolly({
-				speed: 1500,
-				offset: $header.outerHeight() - 1
-			});
-			setTimeout(function() {
-				$body.removeClass('is-resizing');
-				$window.trigger('scroll');
-			}, 0);
-		}, 100);
-	});
-	$window.on('load', function() {
-		$window.trigger('resize');
-	});
-
-})(jQuery);
+			</script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="assets/js/menu-loader.js"></script>
+			<script src="assets/js/intro-carregador.js"></script>
+			<script src="assets/js/one-carregador.js"></script>
+			<script src="assets/js/linha-pedagogica-loader.js"></script>
+			<script src="assets/js/agendar-loader.js"></script>
+			<script src="assets/js/demais-itens-loader.js"></script>
+			<script src="assets/js/galeria-loader.js"></script>
+			<script src="assets/js/rodape-loader.js"></script>
+	</body>
+</html>
