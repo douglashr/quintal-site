@@ -80,6 +80,10 @@ input, select, textarea {
     list-style: disc;
 }
 
+article.from-left, article.from-right {
+    height: 250px;
+}
+
 
 /* Página Interna */
 .pagina-interna {
