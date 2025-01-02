@@ -81,7 +81,7 @@ input, select, textarea {
 }
 
 article.from-left, article.from-right {
-    height: 250px;
+    height: 250px !important;
 }
 
 
