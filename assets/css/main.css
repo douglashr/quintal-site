@@ -642,6 +642,66 @@ span.background-interno-ovelay {
 }
 	}
 
+
+@media screen and (max-width: 1300px){
+
+#agendar .info-box p strong {
+    margin-bottom: 12px;
+}
+
+#agendar .info-box p {
+    margin-top: 20px;
+}
+
+#agendar .info-box span.material-icons {
+    top: 5px;
+}
+}
+
+@media screen and (max-width: 622px){
+
+#agendar .info-box {
+    margin-top: 10px !important;
+}
+}
+
+@media screen and (max-width: 842px){
+
+article.from-left, article.from-right {
+    display: contents;
+}
+
+.gallery a.image.fit {
+    text-align: center;
+    width: 80% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+
+#contact p {
+    margin-left: 0 !important;
+}
+}
+
+
+@media screen and (max-width: 768px){
+
+section#one p, #two p, #work p {
+    font-size: 1.1em;
+}
+
+section#contact .info-box p strong {
+    margin-bottom: 10px ! Important;
+}
+
+section#contact .info-box {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+}
+
 		@media screen and (max-width: 1920px) {
 
 			body, input, textarea, select {
@@ -691,6 +751,8 @@ section#contact span.material-icons img {
 			
 
 		}
+
+
 		
 		@media screen and (max-width: 1200px) {
 			.left-contact, .right-contact {
