@@ -3156,7 +3156,7 @@ right: 0;
 }
 
 section#one p, #two p, #work p  {
-    font-size: 18px;
+     font-size: 1em;
 }
 
 #one h2, #two h2, #work h2 {
