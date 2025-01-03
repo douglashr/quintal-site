@@ -689,7 +689,7 @@ article.from-left, article.from-right {
 @media screen and (max-width: 768px){
 
 section#one p, #two p, #work p {
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 section#contact .info-box p strong {
