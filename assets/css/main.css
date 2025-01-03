@@ -681,6 +681,10 @@ span.background-interno-ovelay {
 
 @media screen and (max-width: 842px){
 
+	.content.box.style2.col-4 p {
+    font-size: 1em !important;
+	}
+
 article.from-left, article.from-right {
     display: contents !important;
 }
