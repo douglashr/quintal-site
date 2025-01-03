@@ -69,9 +69,7 @@ input::-moz-focus-inner {
 	padding: 0;
 }
 
-div#linha-pedagogica-container{
-	padding: 0;
-}
+
 
 input, select, textarea {
 	-moz-appearance: none;
@@ -712,9 +710,7 @@ article.from-left, article.from-right {
 
 @media screen and (max-width: 768px){
 
-	section#one, div#linha-pedagogica-container {
-    max-height: 600px !important;
-}
+
 
 section#one p, #two p, #work p {
     font-size: 1em;
@@ -3284,7 +3280,7 @@ overflow: hidden;
 		background-position: top left, center center;
 	}
 */
-#linha-pedagogica-container { background: url("images/overlay.png"), url("../../images/IMG_20220211_152548.jpg");
+#two { background: url("images/overlay.png"), url("../../images/IMG_20220211_152548.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
