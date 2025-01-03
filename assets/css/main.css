@@ -668,7 +668,7 @@ span.background-interno-ovelay {
 @media screen and (max-width: 842px){
 
 article.from-left, article.from-right {
-    display: contents;
+    display: contents !important;
 }
 
 .gallery a.image.fit {
