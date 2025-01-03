@@ -629,6 +629,14 @@ span.background-interno-ovelay {
 		.content.box.style2.col-4 {
     height: 450px !important;
 		}
+
+			.content.box.style2.col-4 a {
+    font-size: 1em;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
 		
 		.content.box.style2.col-4 {
 			    height: 400px !important;
