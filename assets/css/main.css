@@ -681,9 +681,7 @@ span.background-interno-ovelay {
 
 @media screen and (max-width: 842px){
 
-section#one, div#linha-pedagogica-container {
-    max-height: 600px !important;
-}
+
 
 	.content.box.style2.col-4 p {
     font-size: 1em !important;
@@ -709,6 +707,10 @@ article.from-left, article.from-right {
 
 
 @media screen and (max-width: 768px){
+
+	section#one, div#linha-pedagogica-container {
+    max-height: 600px !important;
+}
 
 section#one p, #two p, #work p {
     font-size: 1em;
