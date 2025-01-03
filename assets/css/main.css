@@ -55,6 +55,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+#linha-pedagogica-container{
+	height: 100vh;
+}
+
 .screen{
 	display: none;
 }
