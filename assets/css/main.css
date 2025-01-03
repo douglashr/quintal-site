@@ -3150,6 +3150,8 @@ section#agendar a.valores {
     font-size: 0.8em;
     position: absolute;
     bottom: 20px;
+left: 0;
+right: 0;
 }
 
 section#one p, #two p, #work p  {
