@@ -3272,13 +3272,21 @@ overflow: hidden;
     border-radius: 10px;
 }
 
-/* Two */
+/* Two 
 
 	#two { background: url("images/overlay.png"), url("../../images/IMG_20220211_152548.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+*/
+#two {
+    background: 
+        url("images/overlay.png") top left / 256px 256px fixed, /* Overlay com tamanho fixo no topo esquerdo */
+        url("../../images/IMG_20220211_152548.jpg") center center / cover fixed; /* Imagem de fundo preenchendo todo o contêiner */
+    background-repeat: no-repeat, no-repeat; /* Evita repetições para ambas as imagens */
+}
+
 
 /* Contact */
 
