@@ -3152,6 +3152,7 @@ section#agendar a.valores {
     bottom: 20px;
 left: 0;
 right: 0;
+	text-align: center;
 }
 
 section#one p, #two p, #work p  {
