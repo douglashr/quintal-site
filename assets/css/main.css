@@ -635,6 +635,12 @@ span.background-interno-ovelay {
     min-width: 40%;
 }
 
+			#tree{
+				    margin: 0 auto;
+    display: block;
+    text-align: center;
+			}
+
 .main.style2.left {
     position: relative;
     justify-content: center;
