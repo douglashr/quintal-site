@@ -136,7 +136,9 @@
 		var $two = $('#two');
 
 		if ($linhaContainer.length && $two.length) {
-			$linhaContainer.height($two.height());
+			var alturaTwo = $two.outerHeight(); // Obtém a altura de #two
+			$linhaContainer.css('height', alturaTwo + 'px'); // Define a altura de #linha-pedagogica-container
+			console.log(`Altura ajustada: ${alturaTwo}px`);
 		}
 	}
 
