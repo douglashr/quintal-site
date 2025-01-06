@@ -130,15 +130,15 @@
 		inicializarAnimacoes();
 	});
 
-	// Adjust height of #linha-pedagogica-container based on #two.
+	// Adjust height of #linha-pedagogica-container based on #one.
 	function ajustarAltura() {
 		var $linhaContainer = $('#linha-pedagogica-container');
-		var $two = $('#two');
+		var $one = $('#one');
 
-		if ($linhaContainer.length && $two.length) {
-			var alturaTwo = $two.outerHeight(); // Obtém a altura de #two
-			$linhaContainer.css('height', alturaTwo + 'px'); // Define a altura de #linha-pedagogica-container
-			console.log(`Altura ajustada: ${alturaTwo}px`);
+		if ($linhaContainer.length && $one.length) {
+			var alturaOne = $one.outerHeight(); // Obtém a altura de #one
+			$linhaContainer.css('height', alturaOne + 'px'); // Define a altura de #linha-pedagogica-container
+			console.log(`Altura ajustada para altura de #one: ${alturaOne}px`);
 		}
 	}
 
