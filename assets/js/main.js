@@ -130,20 +130,17 @@
 		inicializarAnimacoes();
 	});
 
-	// Adjust #linha-pedagogica-container size based on #two.
-	function ajustarTamanho() {
-		const $two = $('#two');
-		const $linhaPedagogicaContainer = $('#linha-pedagogica-container');
+	// Adjust height of #linha-pedagogica-container based on #two.
+	function ajustarAltura() {
+		var $linhaContainer = $('#linha-pedagogica-container');
+		var $two = $('#two');
 
-		if ($two.length && $linhaPedagogicaContainer.length) {
-			$linhaPedagogicaContainer.css({
-				height: $two.outerHeight(),
-				width: $two.outerWidth()
-			});
+		if ($linhaContainer.length && $two.length) {
+			$linhaContainer.height($two.height());
 		}
 	}
 
-	$window.on('load resize', ajustarTamanho);
+	$window.on('load resize', ajustarAltura);
 
 	// Events.
 	var resizeTimeout;
