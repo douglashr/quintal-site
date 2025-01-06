@@ -130,6 +130,21 @@
 		inicializarAnimacoes();
 	});
 
+	// Adjust #linha-pedagogica-container size based on #two.
+	function ajustarTamanho() {
+		const $two = $('#two');
+		const $linhaPedagogicaContainer = $('#linha-pedagogica-container');
+
+		if ($two.length && $linhaPedagogicaContainer.length) {
+			$linhaPedagogicaContainer.css({
+				height: $two.outerHeight(),
+				width: $two.outerWidth()
+			});
+		}
+	}
+
+	$window.on('load resize', ajustarTamanho);
+
 	// Events.
 	var resizeTimeout;
 	$window.on('resize', function() {
