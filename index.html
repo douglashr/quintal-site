@@ -18,7 +18,11 @@
         <h1><img src="images/quintal.jfif" alt="Logo"></h1>
         <!-- Menu Principal -->
         <nav>
-            <ul id="menu-principal"></ul>
+            <ul id="menu-principal">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#one">One</a></li>
+                <li><a href="#two">Two</a></li>
+            </ul>
         </nav>
         <nav>
             <button class="menu-toggle">Menu</button>
@@ -50,21 +54,18 @@
         <div class="content box style2">
             <header></header>
         </div>
-        <a href="#two" class="button style2 down anchored"></a>
+        <a href="#two" class="button style2 down anchored">Next</a>
     </section>
     <!-- Two -->
     <div id="linha-pedagogica-container"></div>
-    <!-- AGENDAR -->
     <div id="agendar-container"></div>
-    <!-- Dinâmico -->
     <div id="demais-itens-container"></div>
     <div id="galeria-container"></div>
-    <!-- Contact -->
     <div id="rodape-container"></div>
     <!-- Footer -->
     <footer id="footer">
         <ul class="menu">
-            <li></li>
+            <li><a href="#header">Back to Top</a></li>
         </ul>
     </footer>
     <!-- Scripts -->
@@ -85,74 +86,12 @@
     <script src="assets/js/galeria-loader.js"></script>
     <script src="assets/js/rodape-loader.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
+            // Scroll suave em todos os links de âncora
             $('a[href^="#"]').scrolly({
                 speed: 1500,
                 offset: $('#header').outerHeight() - 1
             });
-
-            $('.main.style1, .main.style2, #contact').each(function() {
-                $(this).scrollex({
-                    mode: 'middle',
-                    delay: 100,
-                    initialize: function() { $(this).addClass('inactive'); },
-                    terminate: function() { $(this).removeClass('inactive'); },
-                    enter: function() { $(this).removeClass('inactive'); },
-                    leave: function() { $(this).addClass('inactive'); }
-                });
-            });
-
-            $('.gallery').poptrox({
-                baseZIndex: 10001,
-                useBodyOverflow: false,
-                overlayColor: '#1f2328',
-                overlayOpacity: 0.65,
-                usePopupCaption: true,
-                popupLoaderText: 'Carregando...',
-                usePopupNav: true
-            });
-
-            $('div.burger').on('click', function() {
-                if (!$(this).hasClass('open')) {
-                    abrirMenu();
-                } else {
-                    fecharMenu();
-                }
-            });
-
-            function abrirMenu() {
-                $('div.circle').addClass('expand');
-                $('div.screen').addClass('expand');
-                $('div.burger').addClass('open');
-                $('div.x, div.y, div.z').addClass('collapse');
-                $('.menu li').addClass('animate');
-                setTimeout(function() {
-                    $('div.y').hide();
-                    $('div.x').addClass('rotate30');
-                    $('div.z').addClass('rotate150');
-                }, 70);
-                setTimeout(function() {
-                    $('div.x').addClass('rotate45');
-                    $('div.z').addClass('rotate135');
-                }, 120);
-            }
-
-            function fecharMenu() {
-                $('div.screen').removeClass('expand');
-                $('div.burger').removeClass('open');
-                $('div.x').removeClass('rotate45').addClass('rotate30');
-                $('div.z').removeClass('rotate135').addClass('rotate150');
-                $('div.circle').removeClass('expand');
-                $('.menu li').removeClass('animate');
-                setTimeout(function() {
-                    $('div.x').removeClass('rotate30');
-                    $('div.z').removeClass('rotate150');
-                }, 50);
-                setTimeout(function() {
-                    $('div.y').show();
-                    $('div.x, div.y, div.z').removeClass('collapse');
-                }, 70);
-            }
         });
     </script>
 </body>
