@@ -22,7 +22,6 @@
         </nav>
         <nav>
             <button class="menu-toggle">Menu</button>
-            <!-- Aqui será inserido o menu dinamicamente -->
             <ul id="menu"></ul>
         </nav>
         <div class="screen">
@@ -57,16 +56,13 @@
     <div id="linha-pedagogica-container"></div>
     <!-- AGENDAR -->
     <div id="agendar-container"></div>
-    <!-- Container para a seção dinâmica -->
+    <!-- Dinâmico -->
     <div id="demais-itens-container"></div>
-    <!-- Container para a seção dinâmica -->
     <div id="galeria-container"></div>
     <!-- Contact -->
-    <!-- Container para a seção dinâmica -->
     <div id="rodape-container"></div>
     <!-- Footer -->
     <footer id="footer">
-        <!-- Menu -->
         <ul class="menu">
             <li></li>
         </ul>
@@ -90,6 +86,11 @@
     <script src="assets/js/rodape-loader.js"></script>
     <script>
         $(document).ready(function() {
+            $('a[href^="#"]').scrolly({
+                speed: 1500,
+                offset: $('#header').outerHeight() - 1
+            });
+
             $('.main.style1, .main.style2, #contact').each(function() {
                 $(this).scrollex({
                     mode: 'middle',
@@ -100,6 +101,7 @@
                     leave: function() { $(this).addClass('inactive'); }
                 });
             });
+
             $('.gallery').poptrox({
                 baseZIndex: 10001,
                 useBodyOverflow: false,
@@ -109,6 +111,7 @@
                 popupLoaderText: 'Carregando...',
                 usePopupNav: true
             });
+
             $('div.burger').on('click', function() {
                 if (!$(this).hasClass('open')) {
                     abrirMenu();
@@ -116,6 +119,7 @@
                     fecharMenu();
                 }
             });
+
             function abrirMenu() {
                 $('div.circle').addClass('expand');
                 $('div.screen').addClass('expand');
@@ -132,6 +136,7 @@
                     $('div.z').addClass('rotate135');
                 }, 120);
             }
+
             function fecharMenu() {
                 $('div.screen').removeClass('expand');
                 $('div.burger').removeClass('open');
