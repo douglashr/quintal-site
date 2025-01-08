@@ -144,6 +144,12 @@
 
 	$window.on('load resize', ajustarAltura);
 
+	// Eventos de scroll suave.
+	$('a[href^="#"]').scrolly({
+		speed: 1500,
+		offset: $header.outerHeight() - 1
+	});
+
 	// Reinicializa plugins após alterações dinâmicas.
 	function reinicializarTudo() {
 		console.log("Reinicializando tudo...");
