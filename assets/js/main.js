@@ -8,7 +8,8 @@
 
 	var $window = $(window),
 		$body = $('body'),
-		$header = $('#header');
+		$header = $('#header'),
+		$all = $body.add($header);
 
 	// Breakpoints.
 	breakpoints({
@@ -54,7 +55,7 @@
 						if ($this.height() <= wh)
 							$this.css('height', (wh - 50) + 'px');
 					});
-				}, 50);
+				});
 			})
 			.triggerHandler('resize.ie-flexbox-fix');
 	}
@@ -125,12 +126,6 @@
 		}
 	}
 
-	function reinicializarTudo() {
-		console.log("Reinicializando animações e galeria...");
-		inicializarGaleria();
-		inicializarAnimacoes();
-	}
-
 	$window.on('load', function() {
 		inicializarAnimacoes();
 	});
@@ -149,13 +144,24 @@
 
 	$window.on('load resize', ajustarAltura);
 
-	// Scroll suave.
-	$('a[href^="#"]').scrolly({
-		speed: 1500,
-		offset: $header.outerHeight() - 1
+	// Events.
+	var resizeTimeout;
+	$window.on('resize', function() {
+		$body.addClass('is-resizing');
+		clearTimeout(resizeTimeout);
+		resizeTimeout = setTimeout(function() {
+			$('a[href^="#"]').scrolly({
+				speed: 1500,
+				offset: $header.outerHeight() - 1
+			});
+			setTimeout(function() {
+				$body.removeClass('is-resizing');
+				$window.trigger('scroll');
+			}, 0);
+		}, 100);
 	});
-
-	// Disparo para reinicializar após atualização dinâmica.
-	$(document).on('conteudoAtualizado', reinicializarTudo);
+	$window.on('load', function() {
+		$window.trigger('resize');
+	});
 
 })(jQuery);
